@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Banu-Regular;
+    src: url(Banu-Regular.otf);
+}
+@font-face {
+    font-family: Xiinthlea-Regular;
+    src: url(xiinthlea-Regular.otf);
+}
+@font-face {
+    font-family: Xiinthlea-Vertical;
+    src: url(xiinthlea-vertical-Regular.otf);
+}
+body {
+    background: #000000;
+    background-image: url(../images/bg-stars-2560.png);
+    font-family: Electrolize, sans-serif;
+}
+h1 {
+    font-family: Orbitron, sans-serif;
+    color: #00e7ff;
+}
+h2 {
+
+    color: #00e7ff;
+}
+h3 {
+    color: #3fc9e1;
+}
+h4 {
+    color: #99e3f5;
+}
+h5{
+    color:#0a5688;
+}
+p {
+    color: #0891c5;
+}
+a {
+    text-decoration: none;
+}
+li {
+    color: #da9e00;
+}
+ul {
+    color: #CFDEE8;
+}
+.card {
+    background: #00000000;
+}
+.card:hover{
+    background-image: url(../images/rsi_button_foreground_border.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.text-responsive {
+    font-size: calc(10% + 1vw + 1vh);
+  }
+#intro{
+    background-color: #0000ee0c;
+    border: solid;
+    border-color: #00e5ff21;
+}
+#qualifications{
+    background-color: #0000ee0c;
+    border: solid;
+    border-color: #00e5ff21;
+}
+#contact{
+    background-color: #0000ee0c;
+    border: solid;
+    border-color: #00e5ff21;
+}
+#footer{
+    text-align: center;
+}
+#toTop{
+    color:#3fc9e1;
+    border-color:#3fc9e100;
+}
+#toTop:hover{
+    background-color: #0000ee0c;
+    border-color:#3fc9e1;
+}
